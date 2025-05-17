@@ -1,0 +1,46 @@
+# Bin folders
+*/bin/
+
+# Compiled object files and executables
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# IDE and editor folders/files
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Cache
+.cache/
+*.pch
+
+# Vulkan shader binaries
+*.spv
+
+# Test results or debug dumps
+*.dSYM/
+*.stackdump
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
