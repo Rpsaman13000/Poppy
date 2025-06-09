@@ -14,7 +14,7 @@ compilerFlags="-g -fdeclspec -fPIC"
 # -fms-extensions
 # -Wall -Werror
 includeFlags="-Isrc -I../engine/src/"
-linkerFlags="-L../bin/ -lengine"
+linkerFlags="-L../bin/ -lengine -Wl,-rpath,."
 defines="-D_DEBUG -DPIMPORT"
 
 echo "Building $assembly..."

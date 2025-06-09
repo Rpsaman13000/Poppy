@@ -1,6 +1,3 @@
 #include "poppy.h"
 
-int main() 
-{
-  poppy::Print();
-}
+int main() { poppy::Print(); }

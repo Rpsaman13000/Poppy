@@ -1,3 +1,5 @@
+TODO: Fill the readme file properly!!!
+
 # 🎮 Poppy
 
 *A lightweight, hobbyist game engine written in C++ using Vulkan and Clang.*
@@ -42,6 +44,7 @@
 - Written in C++17, compiled with Clang
 
 Planned:
+
 - Basic physics system
 - Audio support
 - Scene serialization
@@ -71,12 +74,12 @@ cd MyVulkanGameEngine
 
 ## 🛠 Dependencies
 
-* Vulkan SDK
-* GLFW (Windowing + Input)
-* GLM (Math library)
-* stb\_image (Image loading)
-* spdlog (Logging)
-* tinyobjloader (Optional: OBJ mesh loading)
+- Vulkan SDK
+- GLFW (Windowing + Input)
+- GLM (Math library)
+- stb\_image (Image loading)
+- spdlog (Logging)
+- tinyobjloader (Optional: OBJ mesh loading)
 
 Use submodules or package managers (like vcpkg or Conan) to manage dependencies.
 
@@ -105,15 +108,12 @@ ninja
 ## 📁 Project Structure
 
 ```
-MyVulkanGameEngine/
-├── assets/           # Shaders, textures, models
-├── include/          # Public headers
-├── src/              # Engine source files
-│   ├── core/
-│   ├── renderer/
-│   └── ecs/
-├── third_party/      # External libraries
-├── CMakeLists.txt
+Poppy/
+├── engine
+    └─src/              # Engine source files
+│     ├── core/
+│     ├── renderer/
+│     └── ecs/
 └── README.md
 ```
 
@@ -121,19 +121,14 @@ MyVulkanGameEngine/
 
 ## 🖼 Screenshots
 
-> Add screenshots or videos of your engine in action here
+> Still nothing worth showing.
 
 ---
 
 ## 📅 Roadmap
 
-* [x] Basic rendering loop
-* [x] Load and display a textured quad
-* [ ] Implement ECS properly
-* [ ] Add support for 3D models
-* [ ] Implement a basic physics system
-* [ ] Add UI (ImGui integration)
-* [ ] Asset hot-reloading
+- [ ] Implement core utilities
+- [ ] Implement rendering pipeline
 
 ---
 
@@ -141,10 +136,9 @@ MyVulkanGameEngine/
 
 This project wouldn't exist without the inspiration and education provided by these amazing people and projects:
 
-* [TheCherno's Hazel Engine](https://github.com/TheCherno/Hazel) – for architecture, tooling, and motivation
-* [Sascha Willems' Vulkan Examples](https://github.com/SaschaWillems/Vulkan) – for practical Vulkan knowledge and demos
-* [Brendan Galea's C++ game engine series](https://www.youtube.com/@MakingGamesWithBrendan) – for foundational ideas and walkthroughs
-* [component-based ECS articles by Niklas Gray](https://www.dataorienteddesign.com/dodbook/) – for ECS architecture inspiration
+- [Travis Vroman's Kohi game engine series](https://www.youtube.com/watch?v=dHPuU-DJoBM&list=PLv8Ddw9K0JPg1BEO-RS-0MYs423cvLVtj) – for foundational ideas and walkthroughs
+- [TheCherno's Hazel Engine](https://github.com/TheCherno/Hazel) – tooling, vision and motivation
+- [Sascha Willems' Vulkan Examples](https://github.com/SaschaWillems/Vulkan) – for practical Vulkan knowledge and demos
 
 Thank you to the open-source community for sharing their work and knowledge 🙌
 

@@ -3,9 +3,8 @@
 
 #include "stdio.h"
 
-namespace poppy 
-{
-  void Print();
+namespace poppy {
+void Print();
 }
 
 #endif // !POPPY
